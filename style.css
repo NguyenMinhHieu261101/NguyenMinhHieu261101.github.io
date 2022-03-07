@@ -1,0 +1,112 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* định dạng cho cả trang nằm giữa */
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+/* css cho header */
+header{
+    height: 100px;
+    background: #cb7802;
+}
+
+/* định dạng ảnh */
+header img{
+    padding-left: 30px;
+}
+
+/* Định dạng cho nav */
+nav{
+    height: 35px;
+    background: #058a3c;
+    margin-bottom: 5px;
+}
+
+/* định dạng thẻ ul */
+nav .menu ul{
+    list-style: none;
+}
+/* định dạng thẻ li */
+nav .menu ul li{
+    /* căn trái */
+    float: left;
+    /* Căn giữa */
+    line-height: 35px;
+    padding: 0 15px;
+}
+
+/* định dạng thẻ a */
+nav .menu ul li a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;  /*bỏ gạch chân*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .search{
+    line-height: 35px;
+    float: right;
+    margin-right: 25px;  /*đẩy qua trái xíu*/
+}
+
+/* Định dạng h3 */
+article h3{
+    text-align: center;
+    padding: 15px 0;
+    color: #272f54;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* định dạng item phía trong list */
+article .new_list .news_item{
+    width: 28%;
+    padding: 12px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-right: 4%;
+}
+
+/* Định dạng cho cái cuối */
+#fix{
+    margin-right: 0px;
+    
+}
+
+article .new_list .news_item h4{
+    font-size: 16px;
+    color: #ad3f00;
+    text-align: center;
+}
+
+article .new_list .news_item h4 a{
+    text-decoration: none;
+    color: green
+}
+
+article .new_list .news_item img{
+    margin: 10px auto;
+}
+
+article .new_list .news_item .content{
+    font-style: 13px;
+}
+
+footer{
+    height: 40px;
+    background: #272f54;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
